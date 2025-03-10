@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top video{
+    height: 150%;
+    width:  100%;
+    z-index: -1;
+    position:absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.nav {
+    width: 100%;
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+.nav ul {
+    justify-content: center;
+    display: flex;
+    gap: 80px;
+    padding: 0; 
+}
+
+ul li {
+    list-style: none;
+    font-weight: 900;
+    display: inline-block; 
+}
+
+ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 24px;
+    display: block; 
+    padding: 10px 15px; 
+}
+/* .nav{
+    width: 100%;
+    margin: 20px 30px;
+    top: 0px;
+}
+.nav ul{
+    justify-content: center;
+    display: flex;
+    gap: 80px;
+}
+ul li{
+    list-style: none;
+    font-weight: 900;
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 24px;
+} */
+nav {
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+background-image: url(https://www.happywalagift.com/wp-content/uploads/2016/11/Republic-Day-2017.jpg); 
+background-size: cover;
+color: #fff;
+text-align: center;
+padding: 100px 20px;
+margin-bottom: 0;
+}
+
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 0;
+}
+
+.content {
+    padding: 50px 20px;
+}
+
+.event-details {
+    margin-bottom: 50px;
+    color: #007bff;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+p{
+    color: #661d02;
+}
+.social-icons a {
+    color: #007bff;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+.hero-section {
+    position: relative;
+    height: 500px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(https://p7.hiclipart.com/preview/429/261/176/bhagat-singh-india-t-shirt-fedora-clothing-accessories-bhagat-singh.jpg); /* Add your hero background image path here */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+}
+
+.hero-btn {
+    margin-top: 20px;
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.event-card-body {
+    padding: 20px;
+}
+
+.event-card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.event-card-date {
+    color: #007bff;
+}
+
+.cta-section {
+    background-color: #0026ff;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    margin-bottom: 0;
+}
+
+.cta-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    margin-top: 20px;
+}

@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #1a1a1a url('WhatsApp Image 2024-02-04 at 02.45.31_63fed84c.jpg') center center fixed;
+    background-size: cover;
+    color: #e0e0e0; /* Light text color */
+    transition: color 0.5s; /* Smooth transition for text color change */
+}
+
+body:hover {
+    color: #ffffff; /* Change text color on hover */
+}
+
+header {
+    background: linear-gradient(to right, #1f4068, #1f1c2b); /* Gradient background for header */
+    color: #ffffff; /* White text color */
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: #4CAF50; /* Accent color for headings */
+}
+
+.contact-info p {
+    margin-bottom: 0.5rem;
+}
+
+.section-bg {
+    background-color: rgba(28, 41, 56, 0.9); /* Semi-transparent background for sections */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.section-bg:hover {
+    transform: translateY(-5px); /* Add a subtle lift effect on hover */
+}
+
+ul {
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.photo-section  { 
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.photo-section img {
+    width: 150px; /* Adjust the size of the photo */
+    border-radius: 50%; /* Make the photo circular */
+    transition: transform 0.3s ease-in-out;
+    filter: grayscale(50%); /* Apply grayscale filter to the photo */
+}
+
+.photo-section img:hover {
+    transform: scale(1.1) rotate(5deg); /* Add a subtle zoom and rotate effect on hover */
+    filter: grayscale(0%); /* Remove grayscale filter on hover */
+}
+
+/* Full-page background utility classes */
+.full-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+}
+
+/* Additional Tailwind CSS features and animations */
+.fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Footer styles */
+footer {
+    background-color: #1f4068;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.social-icons a {
+    margin: 0 1rem;
+    color: #ffffff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size of the icons */
+    height: 30px; /* Adjust the size of the icons */
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Add a subtle zoom effect on hover */
+}
